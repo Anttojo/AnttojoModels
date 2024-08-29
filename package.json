@@ -2,7 +2,8 @@
   "name": "anttojo-models",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc --watch"
+    "build": "tsc",
+    "w_build": "tsc --watch"
   },
   "keywords": [],
   "author": "",
