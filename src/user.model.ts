@@ -17,12 +17,12 @@ export interface LoginDtoModel {
 export interface UserModel extends EntityModel {
   email: string;
   password: string;
-  name: string;
-  lastName: string;
-  phoneNumber: string;
-  gender: Gender;
+  name?: string;
+  lastName?: string;
+  phoneNumber?: string;
+  gender?: Gender;
   rol: Rol;
-  birthdate: Date;
+  birthdate?: Date;
   city?: string;
   state?: string;
   country?: string;
