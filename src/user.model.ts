@@ -9,9 +9,14 @@ export enum Gender {
   FEMALE = 'female',
   OTHER = 'other',
 }
-export interface LoginDtoModel {
+export interface LoginReq {
   email: string;
   password: string;
+}
+
+export interface LoginResp {
+  access_token: string;
+  user: UserModel;
 }
 
 export interface UserModel extends EntityModel {
