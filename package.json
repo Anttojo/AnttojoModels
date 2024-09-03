@@ -1,18 +1,14 @@
 {
   "name": "anttojo-models",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "description": "Models for AnttojoAPI",
   "scripts": {
     "build": "tsc",
     "w_build": "tsc --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "devDependencies": {
-    "@types/node": "^22.5.1",
-    "typescript": "^5.5.4"
-  }
+  "files": [
+    "/dist"
+  ]
 }

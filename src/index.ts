@@ -1,2 +1,8 @@
-export * from './entity.model';
-export * from './user.model';
+export { EntityModel } from './entity.model';
+export { 
+    UserModel,
+    Rol,
+    Gender,
+    LoginReq,
+    LoginResp,
+} from './user.model';
