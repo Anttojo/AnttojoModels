@@ -19,6 +19,10 @@ export interface LoginResp {
   user: UserModel;
 }
 
+export interface CheckMailResp {
+  exist: boolean;
+}
+
 export interface UserModel extends EntityModel {
   email: string;
   password: string;
