@@ -6,3 +6,12 @@ export {
     LoginReq,
     LoginResp,
 } from './user.model';
+export {
+    RestaurantModel
+} from  './restaurant.model';
+export {
+    HoraryModel
+} from  './horary.model';
+export {
+    SaucerModel
+} from  './saucer.model';
