@@ -5,6 +5,7 @@ export {
     Gender,
     LoginReq,
     LoginResp,
+    CheckMailResp,
 } from './user.model';
 export {
     RestaurantModel
