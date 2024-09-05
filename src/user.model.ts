@@ -15,7 +15,7 @@ export interface LoginReq {
 }
 
 export interface LoginResp {
-  access_token: string;
+  accessToken: string;
   user: UserModel;
 }
 
