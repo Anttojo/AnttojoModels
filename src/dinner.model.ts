@@ -1,6 +1,6 @@
 import { EntityModel } from "anttojo-models";
 
-export interface SaucerModel extends EntityModel {
+export interface DinnerModel extends EntityModel {
     name: string;
     description: string;
     price: number;

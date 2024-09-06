@@ -14,8 +14,8 @@ export {
     HoraryModel
 } from  './horary.model';
 export {
-    SaucerModel
-} from  './saucer.model';
+    DinnerModel
+} from  './dinner.model';
 export {
     ImageModel
 } from  './image.model';
@@ -26,8 +26,8 @@ export {
     ServiceModel
 } from './service.model';
 export {
-    ExtrasModel
-} from './extras.model';
+    MealTimesModel
+} from './mealTimes.model';
 export {
     LocationModel
 } from './location.model';
@@ -40,3 +40,6 @@ export {
 export {
    TagModel
 } from './tag.model';
+export {
+    OutfitModel
+ } from './outfit.model';

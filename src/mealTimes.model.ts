@@ -1,7 +1,5 @@
 import { EntityModel } from "anttojo-models";
 
-export interface ImageModel extends EntityModel{
-    url?: string;
+export interface MealTimesModel extends EntityModel{
     description?: string;
 }
-  

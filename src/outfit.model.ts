@@ -1,7 +1,6 @@
 import { EntityModel } from "anttojo-models";
 
-export interface ImageModel extends EntityModel{
-    url?: string;
+export interface OutfitModel extends EntityModel{
     description?: string;
+
 }
-  

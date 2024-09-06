@@ -1,11 +1,11 @@
-import {  SaucerModel } from "./saucer.model";
+import {  DinnerModel } from "./dinner.model";
 import { HoraryModel } from "./horary.model";
 import { EntityModel } from "anttojo-models";
 import { LocationModel } from "./location.model";
 import { ServiceModel } from "./service.model";
 import { CategoryModel } from "./category.model";
 import { SpecialtyModel } from "./specialty.model";
-import { ExtrasModel } from "./extras.model";
+import { MealTimesModel } from "./mealTimes.model";
 import { PaymentMethodsModel } from "./paymentMethods.model";
 
 export interface RestaurantModel extends EntityModel { 
@@ -21,7 +21,7 @@ export interface RestaurantModel extends EntityModel {
   logo?: string;
   cover?: string;
   images?: string[];
-  menu?: SaucerModel[];
+  menu?: DinnerModel[];
   address?: string;
   country?: string;
   state?: string;
@@ -32,8 +32,8 @@ export interface RestaurantModel extends EntityModel {
   category?: CategoryModel[];
   specialty?: SpecialtyModel[];
   horario?: HoraryModel[];
-  extras?: ExtrasModel[];
+  mealtimes?: MealTimesModel[];
   chef?: string;
   paymentMethods?: PaymentMethodsModel[];
-  //vestimenta?: string[];
+  outfit?: string[];
 }
