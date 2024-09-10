@@ -2,14 +2,14 @@ import { EntityModel } from "./entity.model";
 import { ImageModel } from "./image.model";
 
 export enum Red {
-  TEWITTER = 'X',
+  X = 'X',
   FACEBOOK = 'facebook',
   INSTAGRAM = 'instagram',
   TIKTOK = 'tiktok',
 
 }
 
-export interface SocialModel extends EntityModel {
+export interface SocialNetModel extends EntityModel {
   description: string;
   red: Red;
   qr?: ImageModel;

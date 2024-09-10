@@ -47,8 +47,8 @@ export {
     MenuModel
 } from './menu.model';
 export {
-    SocialModel
-} from './social.model';
+    SocialNetModel
+} from './social-net.model';
 export {
     SubCategoryModel
 } from './subcategory.model';

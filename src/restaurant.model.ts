@@ -9,14 +9,14 @@ import { MealTimesModel } from "./meal-times.model";
 import { PaymentMethodsModel } from "./payment-methods.model";
 import { MenuModel } from "./menu.model";
 import { ImageModel } from "./image.model";
-import { SocialModel } from "./social.model";
+import { SocialNetModel } from "./social-net.model";
 
 export interface RestaurantModel extends EntityModel { 
   name?: string;
   description?: string;
   email?: string;
   branch?: string;
-  social?: SocialModel[];
+  socialsNet?: SocialNetModel[];
   phone?: string;
   logo?: string;
   cover?: string;
