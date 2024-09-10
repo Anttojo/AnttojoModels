@@ -1,5 +1,4 @@
-import { EntityModel } from "anttojo-models";
-
+import { EntityModel } from "./entity.model";
 export interface HoraryModel extends EntityModel {
     apertura?: Date;
     cierre?: Date;

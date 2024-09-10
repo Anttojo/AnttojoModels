@@ -14,8 +14,8 @@ export {
     HoraryModel
 } from  './horary.model';
 export {
-    DinnerModel
-} from  './dinner.model';
+    ProductModel
+} from  './product.model';
 export {
     ImageModel
 } from  './image.model';
@@ -43,3 +43,12 @@ export {
 export {
     OutfitModel
  } from './outfit.model';
+export {
+    MenuModel
+} from './menu.model';
+export {
+    SocialModel
+} from './social.model';
+export {
+    SubCategoryModel
+} from './subcategory.model';
