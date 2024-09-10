@@ -27,13 +27,13 @@ export {
 } from './service.model';
 export {
     MealTimesModel
-} from './mealTimes.model';
+} from './meal-times.model';
 export {
     LocationModel
 } from './location.model';
 export {
    PaymentMethodsModel
-} from './paymentMethods.model';
+} from './payment-methods.model';
 export {
    SpecialtyModel
 } from './specialty.model';
@@ -41,8 +41,8 @@ export {
    TagModel
 } from './tag.model';
 export {
-    OutfitModel
- } from './outfit.model';
+    DressCodeModel
+ } from './dress-code.model';
 export {
     MenuModel
 } from './menu.model';

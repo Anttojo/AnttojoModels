@@ -8,4 +8,5 @@ export interface LocationModel extends EntityModel{
     cp?: string;
     lat?: string;
     long?: string;
+    alias?: string;
 }

@@ -1,6 +1,6 @@
 import { EntityModel } from "./entity.model";
 
-export interface OutfitModel extends EntityModel{
+export interface DressCodeModel extends EntityModel{
     description?: string;
 
 }

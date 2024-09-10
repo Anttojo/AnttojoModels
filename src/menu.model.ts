@@ -6,5 +6,5 @@ export interface MenuModel extends EntityModel{
     name?: string;
     description?: string;
     order?: number;
-    category?: CategoryModel[];    
+    categories?: CategoryModel[];    
 }

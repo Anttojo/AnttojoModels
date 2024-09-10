@@ -5,8 +5,8 @@ import { LocationModel } from "./location.model";
 import { ServiceModel } from "./service.model";
 import { CategoryModel } from "./category.model";
 import { SpecialtyModel } from "./specialty.model";
-import { MealTimesModel } from "./mealTimes.model";
-import { PaymentMethodsModel } from "./paymentMethods.model";
+import { MealTimesModel } from "./meal-times.model";
+import { PaymentMethodsModel } from "./payment-methods.model";
 import { MenuModel } from "./menu.model";
 import { ImageModel } from "./image.model";
 import { SocialModel } from "./social.model";
@@ -23,12 +23,11 @@ export interface RestaurantModel extends EntityModel {
   images?: ImageModel[];
   menu?: MenuModel[];
   location?: LocationModel;
-  service?: ServiceModel[];
-  category?: CategoryModel[];
-  specialty?: SpecialtyModel[];
-  horario?: HoraryModel[];
+  services?: ServiceModel[];
+  categories?: CategoryModel[];
+  specialities?: SpecialtyModel[];
   mealtimes?: MealTimesModel[];
   chef?: string;
   paymentMethods?: PaymentMethodsModel[];
-  outfit?: string[];
+  dresscode?: string[];
 }
