@@ -10,24 +10,24 @@ import { PaymentMethodsModel } from "./payment-methods.model";
 import { MenuModel } from "./menu.model";
 import { ImageModel } from "./image.model";
 import { SocialNetModel } from "./social-net.model";
+import { DressCodeModel } from "./dress-code.model";
 
-export interface RestaurantModel extends EntityModel { 
-  name?: string;
+export interface StoreModel extends EntityModel { 
+  name: string;
   description?: string;
   email?: string;
-  branch?: string;
+  branch: string;
   socialsNet?: SocialNetModel[];
   phone?: string;
-  logo?: string;
-  cover?: string;
+  logo: string;
+  cover: string;
   images?: ImageModel[];
   menu?: MenuModel[];
-  location?: LocationModel;
+  location: LocationModel;
   services?: ServiceModel[];
   categories?: CategoryModel[];
   specialities?: SpecialtyModel[];
   mealtimes?: MealTimesModel[];
-  chef?: string;
   paymentMethods?: PaymentMethodsModel[];
-  dresscode?: string[];
+  dresscode?: DressCodeModel[];
 }

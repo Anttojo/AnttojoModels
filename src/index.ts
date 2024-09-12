@@ -8,8 +8,8 @@ export {
     CheckMailResp,
 } from './user.model';
 export {
-    RestaurantModel
-} from  './restaurant.model';
+    StoreModel
+} from  './store.model';
 export {
     HoraryModel
 } from  './horary.model';
