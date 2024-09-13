@@ -1,31 +1,29 @@
-import {  ProductModel } from "./product.model";
-import { HoraryModel } from "./horary.model";
+import { DressCodeModel } from "./dress-code.model";
 import { EntityModel } from "./entity.model";
-import { LocationModel } from "./location.model";
-import { ServiceModel } from "./service.model";
-import { CategoryModel } from "./category.model";
-import { SpecialtyModel } from "./specialty.model";
+import { ImageModel } from "./image.model";
 import { MealTimesModel } from "./meal-times.model";
 import { PaymentMethodsModel } from "./payment-methods.model";
-import { MenuModel } from "./menu.model";
-import { ImageModel } from "./image.model";
-import { SocialNetModel } from "./social-net.model";
-import { DressCodeModel } from "./dress-code.model";
+import { ServiceModel } from "./service.model";
+import { SpecialtyModel } from "./specialty.model";
 
-export interface StoreModel extends EntityModel { 
+export interface StoreModel extends EntityModel {
   name: string;
+  slogan?: string;
+  logo: ImageModel;
   description?: string;
   email?: string;
   branch: string;
-  socialsNet?: SocialNetModel[];
   phone?: string;
-  logo: string;
-  cover: string;
+  cover: ImageModel;
   images?: ImageModel[];
-  menu?: MenuModel[];
-  location: LocationModel;
+  address: string;
+  country: string;
+  state: string;
+  city: string;
+  cp: string;
+  lat: string;
+  long: string;
   services?: ServiceModel[];
-  categories?: CategoryModel[];
   specialities?: SpecialtyModel[];
   mealtimes?: MealTimesModel[];
   paymentMethods?: PaymentMethodsModel[];
