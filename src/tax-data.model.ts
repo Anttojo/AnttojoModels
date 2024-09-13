@@ -5,7 +5,7 @@ export enum TypeRfc {
   MORAL = "moral",
 }
 
-export interface taxDataModel extends EntityModel {
+export interface TaxDataModel extends EntityModel {
   rfc: string;
   type: TypeRfc;
   representative: string;
