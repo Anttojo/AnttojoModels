@@ -14,7 +14,7 @@ export { SpecialtyModel } from "./specialty.model";
 export { StoreModel } from "./store.model";
 export { SubCategoryModel } from "./subcategory.model";
 export { TagModel } from "./tag.model";
-export { taxDataModel } from "./tax-data.model";
+export { TaxDataModel, TypeRfc } from "./tax-data.model";
 export {
   CheckMailResp,
   Gender,
