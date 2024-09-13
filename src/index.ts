@@ -1,7 +1,6 @@
 export { CategoryModel } from "./category.model";
 export { DressCodeModel } from "./dress-code.model";
 export { EntityModel } from "./entity.model";
-export { FileModel } from "./file.model";
 export { HoraryModel } from "./horary.model";
 export { ImageModel } from "./image.model";
 export { LocationModel } from "./location.model";
