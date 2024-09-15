@@ -1,4 +1,4 @@
-import { EntityModel } from "./entity.model";
+import { EntityModel } from './entity.model';
 
 export enum Rol {
   ADMIN = 'admin',
@@ -25,15 +25,16 @@ export interface CheckMailResp {
 
 export interface UserModel extends EntityModel {
   email: string;
-  password: string;
+  password?: string;
   name?: string;
   lastName?: string;
-  phoneNumber?: string;
+  phone?: string;
   gender?: Gender;
-  rol: Rol;
+  roles: Rol[];
   birthdate?: Date;
   city?: string;
   state?: string;
   country?: string;
   image?: string;
+  stores: unknown[];
 }

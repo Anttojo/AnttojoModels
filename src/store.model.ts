@@ -1,10 +1,10 @@
-import { DressCodeModel } from "./dress-code.model";
-import { EntityModel } from "./entity.model";
-import { ImageModel } from "./image.model";
-import { MealTimesModel } from "./meal-times.model";
-import { PaymentMethodsModel } from "./payment-methods.model";
-import { ServiceModel } from "./service.model";
-import { SpecialtyModel } from "./specialty.model";
+import { DressCodeModel } from './dress-code.model';
+import { EntityModel } from './entity.model';
+import { ImageModel } from './image.model';
+import { MealTimesModel } from './meal-times.model';
+import { PaymentMethodsModel } from './payment-methods.model';
+import { ServiceModel } from './service.model';
+import { SpecialtyModel } from './specialty.model';
 
 export interface StoreModel extends EntityModel {
   name: string;
@@ -27,5 +27,5 @@ export interface StoreModel extends EntityModel {
   specialities?: SpecialtyModel[];
   mealtimes?: MealTimesModel[];
   paymentMethods?: PaymentMethodsModel[];
-  dresscode?: DressCodeModel[];
+  dresscodes?: DressCodeModel[];
 }
