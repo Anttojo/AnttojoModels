@@ -1,10 +1,10 @@
-import { EntityModel } from './entity.model';
+import { EntityModel } from "./entity.model";
 
 export enum Red {
-  X = 'X',
-  FACEBOOK = 'facebook',
-  INSTAGRAM = 'instagram',
-  TIKTOK = 'tiktok',
+  X = "X",
+  FACEBOOK = "facebook",
+  INSTAGRAM = "instagram",
+  TIKTOK = "tiktok",
 }
 
 export interface SocialNetModel extends EntityModel {
