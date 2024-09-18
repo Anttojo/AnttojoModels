@@ -8,7 +8,7 @@ export interface ProductModel extends EntityModel {
   description: string;
   price: number;
   images?: string[];
-  typesProduect: TypeProductModel[];
+  typesProduct: TypeProductModel[];
   categories: CategoryModel[];
   subcategories: SubCategoryModel[];
 
