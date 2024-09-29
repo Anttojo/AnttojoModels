@@ -1,4 +1,5 @@
 import { EntityModel } from './entity.model';
+import { StoreModel } from './store.model';
 
 export enum Rol {
   ADMIN = 'admin',
@@ -36,5 +37,5 @@ export interface UserModel extends EntityModel {
   state?: string;
   country?: string;
   image?: string;
-  stores: unknown[];
+  stores?: StoreModel[];
 }

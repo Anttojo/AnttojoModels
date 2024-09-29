@@ -1,5 +1,6 @@
-import { EntityModel } from "./entity.model";
+import { EntityModel } from './entity.model';
 
-export interface SpecialtyModel extends EntityModel{
-    description?: string;
+export interface SpecialtyModel extends EntityModel {
+  description?: string;
+  image?: string;
 }
