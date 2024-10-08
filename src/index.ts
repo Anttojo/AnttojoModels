@@ -1,14 +1,16 @@
+export { AppRolModel } from './app-rol.model';
 export { CategoryModel } from './category.model';
 export { DressCodeModel } from './dress-code.model';
 export { EntityModel } from './entity.model';
+export { GroupModel } from './group.model';
 export { HoraryModel } from './horary.model';
 export { LocationModel } from './location.model';
 export { MealTimesModel } from './meal-times.model';
-export { GroupModel } from './group.model';
 export { PaymentMethodsModel } from './payment-methods.model';
 export { ProductModel } from './product.model';
+export { RolUserStoreModel } from './rol-user-store.model';
 export { ServiceModel } from './service.model';
-export { SocialNetModel, Red } from './social-net.model';
+export { Red, SocialNetModel } from './social-net.model';
 export { SpecialtyModel } from './specialty.model';
 export { StoreModel } from './store.model';
 export { SubCategoryModel } from './subcategory.model';

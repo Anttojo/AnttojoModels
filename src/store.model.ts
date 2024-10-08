@@ -3,6 +3,7 @@ import { EntityModel } from './entity.model';
 import { GroupModel } from './group.model';
 import { MealTimesModel } from './meal-times.model';
 import { PaymentMethodsModel } from './payment-methods.model';
+import { RolUserStoreModel } from './rol-user-store.model';
 import { ServiceModel } from './service.model';
 import { SpecialtyModel } from './specialty.model';
 
@@ -29,4 +30,5 @@ export interface StoreModel extends EntityModel {
   paymentMethods?: PaymentMethodsModel[];
   dresscodes?: DressCodeModel[];
   groups?: GroupModel[];
+  users?: RolUserStoreModel[];
 }

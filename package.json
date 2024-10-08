@@ -1,6 +1,6 @@
 {
   "name": "anttojo-models",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Models for AnttojoAPI",
   "scripts": {
     "build": "tsc",
