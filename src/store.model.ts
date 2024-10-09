@@ -25,10 +25,11 @@ export interface StoreModel extends EntityModel {
   lat?: string;
   long?: string;
   services?: ServiceModel[];
-  specialities?: SpecialtyModel[];
+  specialties?: SpecialtyModel[];
   mealtimes?: MealTimesModel[];
   paymentMethods?: PaymentMethodsModel[];
   dresscodes?: DressCodeModel[];
   groups?: GroupModel[];
   users?: RolUserStoreModel[];
+  contractSigned: boolean;
 }
